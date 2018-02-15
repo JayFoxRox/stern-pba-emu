@@ -156,7 +156,7 @@ int main(int argc, char* argv[]) {
     // Actual switch ID from manual, calculated as: a1 + a2 * 16, set as boolean
     #define SWITCH(n) ((n) % 16), ((n) / 16)
     
-    // Put balls in the through
+    // Put balls in the trough
     stern_set_switch_state_fn(SWITCH(15), 1);
     stern_set_switch_state_fn(SWITCH(16), 1);
     stern_set_switch_state_fn(SWITCH(17), 1);

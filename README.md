@@ -11,6 +11,7 @@ Make sure you are using a 32-bit compiler, then do the standard CMake build proc
 mkdir build
 cd build
 cmake ..
+make
 ```
 
 Use the [pba-tools](https://github.com/JayFoxRox/pba-tools) rez utility to extract the ROM file (also image.bin / Flash in Stern terminology) from the games REZ file.
